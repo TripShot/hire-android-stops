@@ -7,7 +7,7 @@ This is intended to be a simple project to help us get to know your experience w
 3. For each list item, render what you think is important data from the file. Be prepared to make your case for what should be shown, put yourself in the shoes of a transit user.
 4. Ensure that TalkBack announces the stop name using the tts_stop_name column.
 
-The transit stops are defined in the included stops.txt file. The structure of this file is defined here: https://developers.google.com/transit/gtfs/reference#stopstxt.
+The transit stops are defined in the included stops.txt file (app/src/main/res/raw/stops.txt). The structure of this file is defined here: https://developers.google.com/transit/gtfs/reference#stopstxt.
 
 The hope is that this takes you a few hours, feel free to take your time and spread the work over a few days.
 
