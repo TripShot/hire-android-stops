@@ -18,7 +18,11 @@ The hope is that this takes you a few hours, feel free to take your time and spr
 1. Must be written in Kotlin or Java.
 2. Must use XML layout.
 3. Does not need authentication, localization, unit tests, or UI tests.
-4. The stops file must be loaded asynchronously. Be prepared to show or discuss how you would load the same file (or some other representation of the contents of that file) over a network. As a bonus, use an actual networking library and simulate a network response with the contents of the stops.txt file.
+4. The stops file must not be loaded on the main UI thread. Be prepared to show or discuss how you would load the same file (or some other representation of the contents of that file) over a network.
+
+## Evaluation
+
+While this is intended to be a relatively simple exercise, carefully consider what libraries, widgets, patterns, and techniques you use. At the same time, avoid over-architecting the application, we consider ourselves pragmatists here at TripShot. Your choices are intended to spark discussion, so if you have ideas for a caching layer, by all means bring it up in a followup discussion, but avoid writing any code for it as part of this exercise.
 
 ## Discussion Items
 
