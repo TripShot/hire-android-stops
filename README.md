@@ -9,7 +9,7 @@ This is intended to be a simple project to help us get to know your experience w
 5. Support a refresh button. This button should reload the stops and use the user's _latest_ location (if available).
 6. Show an error if the stops cannot be loaded.
 
-The transit stops are defined in the included stops.txt file (app/src/main/res/raw/stops.txt). The structure of this file is defined here: [https://developers.google.com/transit/gtfs/reference#stopstxt](https://gtfs.org/schedule/reference/#stopstxt).
+The transit stops are defined in the included stops.txt file (app/src/main/res/raw/stops.txt). The structure of this file is defined here: [https://developers.google.com/transit/gtfs/reference#stopstxt](https://gtfs.org/schedule/reference/#stopstxt). If you want to use stops from your own local transit system, feel free to replace stops.txt with a different file you downloaded (many transit systems provide a link on their website to download their static GTFS data).
 
 The hope is that this takes you a few hours, feel free to take your time and spread the work over a few days.
 
